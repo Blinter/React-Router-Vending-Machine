@@ -29,12 +29,13 @@ function MMs() {
             g.appendChild(text);
             svgRef.current.appendChild(g);
             setTimeout(() => {
-                svgRef.current.removeChild(g);
+                if (svgRef.current && g)
+                    svgRef.current.removeChild(g);
             }, 10000);
             animateMandM(g);
         };
 
-        const animateMandM = (g) => {
+        const animateMandM = g => {
             let position = -20;
             const interval = setInterval(() => {
                 position += 2;
@@ -46,7 +47,8 @@ function MMs() {
                     ${position})`);
                 if (position > window.innerHeight) {
                     clearInterval(interval);
-                    svgRef.current.removeChild(g);
+                    if (svgRef.current && g)
+                        svgRef.current.removeChild(g);
                 }
             }, 8);
         };

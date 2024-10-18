@@ -12,8 +12,9 @@ import PromptDialog from './PromptDialog';
 import './App.css';
 
 function App() {
+  const basename = '/React-Router-Vending-Machine';
   return (
-    <Router>
+    <Router basename={basename}>
       <Routes>
         <Route exact path="/" element={
           <>

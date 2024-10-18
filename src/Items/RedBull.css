@@ -1,0 +1,23 @@
+.red-bull-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+}
+
+.redbull-gif {
+    position: relative; 
+    object-fit: cover;
+    height: 70vh;
+    width: 100vh;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.slogan {
+    margin-top: 10px;
+    font-style: italic;
+    color: #ff0000;
+    z-index: 3;
+}

@@ -1,0 +1,20 @@
+.prompt-dialog {
+  width: 10vw;
+  max-width: 35%;
+  padding: 20px;
+  border-radius: 24px;
+  background-color: #093b23;
+  color: white;
+  font-family: Arial, sans-serif;
+  box-shadow: 0.25vw 0.25vh 8px rgba(76, 44, 254, 0.945);
+}
+
+.prompt-dialog h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.prompt-dialog p {
+  font-size: 18px;
+  line-height: 1.2;
+}

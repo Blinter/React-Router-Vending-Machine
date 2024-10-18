@@ -1,0 +1,31 @@
+.kool-aid-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.wall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.kool-aid-man {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 80vw;
+    min-height: 80vh;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    opacity: 0;
+    z-index: 0;
+    visibility: hidden;
+}

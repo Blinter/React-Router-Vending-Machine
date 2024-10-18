@@ -1,0 +1,26 @@
+body {
+    background-color:rgb(24, 255, 205);
+}
+.rick-roll-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.rick-roll-container.flash {
+    background-color: #009898;
+}
+
+.rick-gif {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+    width: 90vw;
+    height: 90vh;
+    object-fit:cover;
+}

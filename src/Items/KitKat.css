@@ -1,0 +1,24 @@
+.kit-kat-container {
+    background-color:rgb(212, 255, 0);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.kit-kat-container.flash {
+    background-color: #ed2323;
+}
+
+.kitkat-gif {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+    width: 90vw;
+    height: 90vh;
+    object-fit:cover;
+}

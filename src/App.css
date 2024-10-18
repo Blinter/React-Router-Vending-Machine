@@ -1,0 +1,60 @@
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper {
+    top: 10%;
+}
+
+body {
+    background-color: Black;
+    color: lightyellow;
+    font-size: x-large;
+}
+
+#root {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    color: lightyellow;
+    font-size: x-large;
+}
+
+h1 {
+    margin-bottom: 20px;
+}

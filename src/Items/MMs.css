@@ -1,0 +1,17 @@
+.mm-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    z-index: 1;
+}
+
+.mandm {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: top 0.008s linear;
+    z-index: 0;
+}

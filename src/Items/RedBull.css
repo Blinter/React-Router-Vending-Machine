@@ -2,15 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     z-index: 2;
 }
 
 .redbull-gif {
-    position: relative; 
-    object-fit: cover;
-    height: 70vh;
-    width: 100vh;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
     z-index: 1;
     margin-bottom: 20px;
 }
@@ -20,4 +19,10 @@
     font-style: italic;
     color: #ff0000;
     z-index: 3;
+}
+
+@media (min-width: 768px) {
+    .redbull-gif {
+        max-width: 400px;
+    }
 }

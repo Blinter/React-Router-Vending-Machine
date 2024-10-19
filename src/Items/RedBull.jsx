@@ -8,16 +8,18 @@ function RedBull() {
     const navigate = useNavigate();
 
     return (
-        <div className="red-bull-container">
-            <h1>Red Bull</h1>
-            <p className="slogan">Gives You Wings</p>
+        <>
+            <div className="red-bull-container">
+                <h1>Red Bull</h1>
+                <p className="slogan">Gives You Wings</p>
 
-            <img
-                src={RedBullGif}
-                alt="Red Bull Gives You Wings"
-                className="redbull-gif" />
+                <img
+                    src={RedBullGif}
+                    alt="Red Bull Gives You Wings"
+                    className="redbull-gif" />
+            </div>
             <GoBackButton navigate={navigate} />
-        </div>
+        </>
     );
 }
 

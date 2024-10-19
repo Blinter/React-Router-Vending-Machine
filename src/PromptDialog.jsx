@@ -6,7 +6,7 @@ const PromptDialog = () => {
     return (
       <div className="prompt-dialog">
         <h2>I AM A VENDING MACHINE!</h2>
-        <p>Please click on an item to the right to receive it!</p>
+        <p>Please click on an item below to receive it!</p>
       </div>
     );
   };

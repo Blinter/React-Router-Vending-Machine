@@ -1,8 +1,9 @@
 .button-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 
 .button {
@@ -11,8 +12,8 @@
     cursor: pointer;
     transition: background-color 0.5s ease;
     margin-bottom: 5px;
-    width: 11vw;
-    min-height: 1vh;
+    width: auto;
+    min-height: 5vh;
     border-radius: 32px;
 
     &:hover {

@@ -1,0 +1,18 @@
+img.vendingLogo {
+    height: auto;
+    max-height: 50vh;
+    width: auto;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    img.vendingLogo {
+        max-height: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+    img.vendingLogo {
+        max-height: 40%;
+    }
+}

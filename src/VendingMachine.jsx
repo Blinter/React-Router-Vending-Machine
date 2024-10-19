@@ -2,6 +2,7 @@ import React from 'react';
 import vendingMachineImage from './assets/VendingMachine.jpg';
 import PromptDialog from './PromptDialog';
 import Menu from './Menu';
+import './VendingMachine.css';
 
 function VendingMachine() {
     return (

@@ -1,12 +1,15 @@
 .prompt-dialog {
-  width: 10vw;
-  max-width: 35%;
+  width: auto;
+  max-height: 25%;
   padding: 20px;
   border-radius: 24px;
   background-color: #093b23;
   color: white;
   font-family: Arial, sans-serif;
   box-shadow: 0.25vw 0.25vh 8px rgba(76, 44, 254, 0.945);
+  max-width: 80%;
+  justify-content: center;
+  align-items: center;
 }
 
 .prompt-dialog h2 {

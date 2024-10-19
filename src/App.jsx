@@ -4,11 +4,9 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
-import Menu from './Menu.jsx';
 import itemComponents from './ItemComponents.js';
 import { pathNames } from './items.jsx';
-import vendingMachine from './assets/VendingMachine.jpg';
-import PromptDialog from './PromptDialog';
+import VendingMachine from './VendingMachine.jsx';
 import './App.css';
 
 function App() {
@@ -17,11 +15,7 @@ function App() {
     <Router basename={basename}>
       <Routes>
         <Route exact path="/" element={
-          <>
-            <PromptDialog />
-            <img src={vendingMachine} alt="Vending Machine" />
-            <Menu />
-          </>} />
+          <VendingMachine />} />
         {pathNames.map((pathName, index) => {
           const Component = itemComponents[pathName];
           if (!Component) {
